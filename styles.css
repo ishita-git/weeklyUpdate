@@ -1,0 +1,92 @@
+.swiggy-label
+{
+    color: #fc8019;
+    position: absolute;
+    top: 2px;
+    left: 70px;
+}
+.logo{
+    position:relative;
+
+}
+.title-wrap{
+    position: absolute;
+}
+
+.button-wrap{
+    position: relative;
+    float:right;
+    top: 10px;
+
+}
+.button{
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 32px;
+    margin: 4px 2px;
+
+}
+.button-1{
+    background-color: black;
+}
+.button-2{
+    background-color: black;
+}
+.button-3{
+    background-color: #fc8019;
+    width: 90%;
+}
+
+/*Coursel */
+
+.MultiCarousel 
+{ float: left; 
+    overflow: hidden;
+     padding: 15px;
+      width: 100%; 
+      position:relative; }
+
+.MultiCarousel .MultiCarousel-inner { 
+    transition: 1s ease all;
+     float: left; }
+
+ .MultiCarousel .MultiCarousel-inner .item
+  { float: left;
+
+  }
+.MultiCarousel .MultiCarousel-inner .item > div
+ { text-align: center;
+     padding:10px;
+      margin:10px;
+       background:#f1f1f1;
+        color:#666;
+}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst
+ {
+     position:absolute;
+      border-radius:50%;
+      top:calc(50% - 20px); 
+ }
+
+ .MultiCarousel .leftLst 
+ { left:0;
+
+ }
+
+.MultiCarousel .rightLst 
+{ right:0;
+
+}
+    
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
+    pointer-events: none;
+     background:#ccc;
+     }
+
+ /*Side login bar*/
+ .w3-sidebar {
+    display: none;
+ }    
